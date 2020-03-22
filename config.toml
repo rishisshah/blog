@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://rishisshah.github.io"
 title = "Rishi Shah"
 
 theme = "hugo-coder"
@@ -74,7 +74,11 @@ disqusShortname = "yourdiscussshortname"
     weight = 2
     url = "https://www.linkedin.com/in/rishiss/"
 
-
+[[params.social]]
+    name = "pdf"
+    icon = "fa fa-file-pdf"
+    weight = 3
+    url = "https://drive.google.com/file/d/15ZluLdG6FTwySazp6FAwRdcW0vW_Cm7B/view?usp=sharing"
 
 [languages]
     [languages.en]
@@ -99,10 +103,5 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.en.menu.main]]
             name = "Contact me"
-            weight = 6
+            weight = 4
             url = "contact/"
-	    
-	    [[languages.en.menu.main]]
-            name = "Resume"
-            weight = 5
-            url = "https://drive.google.com/file/d/1bTmz-WAcX-4tPMJB5K1KMii9kPg6EIxV/view?usp=sharing"
